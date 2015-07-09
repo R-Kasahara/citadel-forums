@@ -18,7 +18,7 @@ h2 {
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #115098;
+	color: #FFFF99;
 }
 
 hr {
@@ -52,22 +52,20 @@ hr {
 }
 
 .navbar {
-	background-color: #cadceb;
+	background-color: #003000;
 }
 
 .forabg {
-	background-color: #0076b1;
-	background-image: url("./images/bg_list.gif");
+	background-color: #224F02;
 }
 
 .forumbg {
-	background-color: #12A3EB;
-	background-image: url("./images/bg_header.gif");
+	background-color: #224F02;
 }
 
 .panel {
-	background-color: #ECF1F3;
-	color: #28313F;
+	background-color: #224F02;
+	color: #CEF0FE;
 }
 
 .post:target .content {
@@ -79,7 +77,7 @@ hr {
 }
 
 .bg1 {
-	background-color: #ECF3F7;
+	background-color: #112C01;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -87,7 +85,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #e1ebf2;
+	background-color: #224F02;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -95,7 +93,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3	{
-	background-color: #cadceb;
+	background-color: #112C01;
 }
 
 .ucprowbg {
@@ -244,8 +242,8 @@ p.post-notice.reported:before, p.post-notice.error:before {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #105289; }
-a:hover	{ color: #D31141; }
+a { color: #BFDEBF; }
+a:hover	{ color: #59BA0C; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -314,16 +312,11 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #eef5f9;
-	background-image: url("./images/gradient.gif");
+	background-color: #112C01;
 }
 
 ul.topiclist li {
-	color: #4C5D77;
-}
-
-ul.topiclist dd {
-	border-left-color: #FFFFFF;
+	color: #CEF0FE;
 }
 
 .rtl ul.topiclist dd {
@@ -340,25 +333,11 @@ ul.topiclist li.row dt a.subforum.unread {
 }
 
 li.row {
-	border-top-color:  #FFFFFF;
-	border-bottom-color: #00608F;
+	border-top-color:  #000;
 }
 
 li.row strong {
 	color: #000000;
-}
-
-li.row:hover {
-	background-color: #F6F4D0;
-}
-
-li.row:hover dd {
-	border-left-color: #CCCCCC;
-}
-
-.rtl li.row:hover dd {
-	border-right-color: #CCCCCC;
-	border-left-color: transparent;
 }
 
 li.header dt, li.header dd {
@@ -374,7 +353,7 @@ li.header dt, li.header dd {
 /* Content container styles
 ----------------------------------------*/
 .content {
-	color: #333333;
+	color: #CEF0FE;
 }
 
 .content h2, .panel h2 {
@@ -409,9 +388,9 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
+	background-color: #112C01;
 	background-image: url("./images/quote.gif");
-	border-color:#DBDBCE;
+	border-color:#000;
 }
 
 .rtl blockquote {
@@ -937,7 +916,7 @@ select {
 }
 
 label {
-	color: #425067;
+	color: #FFFF99;
 }
 
 option.disabled-option {
@@ -947,16 +926,11 @@ option.disabled-option {
 /* Definition list layout for forms
 ---------------------------------------- */
 dd label {
-	color: #333;
+	color: #CEF0FE;
 }
 
 fieldset.fields1 {
 	background-color: transparent;
-}
-
-/* Hover effects */
-fieldset dl:hover dt label {
-	color: #000000;
 }
 
 fieldset.fields2 dl:hover dt label {
