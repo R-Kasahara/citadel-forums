@@ -46,7 +46,7 @@ body {
 
 .logo {
 	/* change display value to inline-block to show logo */
-	display: none;
+	display: inline-block;
 	float: none;
 	padding: 10px;
 }
