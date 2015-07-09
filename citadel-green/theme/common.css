@@ -216,8 +216,9 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	width: 65%;
 }
 
-#site-description h1 {
+#site-description h1, p {
 	margin-right: 0;
+	display: none;
 }
 
 /* Round cornered boxes and backgrounds
