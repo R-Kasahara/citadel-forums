@@ -250,9 +250,11 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 	border-radius: 7px;
 }
 
+/* ------ EDITED ------ */
+
 .panel {
 	margin-bottom: 4px;
-	padding: 5px 10px;
+	padding: 10px 10px;
 	border-radius: 7px;
 }
 
@@ -733,7 +735,7 @@ table.info tbody th {
 }
 
 .left-box.profile-details {
-	width: 80%;
+	width: 880px;
 }
 
 .right-box {
@@ -748,10 +750,12 @@ dl.details {
 	font-size: 1.1em;
 }
 
+/* ------ EDITED ------ */
+
 dl.details dt {
 	float: left;
 	clear: left;
-	width: 30%;
+	width: 120px;
 	text-align: right;
 	display: block;
 }
